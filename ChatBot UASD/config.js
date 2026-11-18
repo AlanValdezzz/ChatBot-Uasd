@@ -1,2 +1,5 @@
 // pega tu key de gemini aqui (este archivo NO se sube a github)
-const API_KEY = "AQ.Ab8RN6LDumfvvh5iBx_QcpOcZ7tX5UTc6WPS0Snbw63zlXXLBw";
+const API_KEY = "PEGAR AQUI";
+
+// modelo estandar 
+const MODELO_IA = "gemini-flash-lite-latest";
