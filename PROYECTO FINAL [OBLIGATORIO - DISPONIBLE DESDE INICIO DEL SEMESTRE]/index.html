@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Estatuto UASD</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <div class="encabezado">
+    <h1>Chatbot del Estatuto Orgánico de la UASD</h1>
+    <div class="menu-sugeridas">
+      <button type="button" id="btn-sugeridas">preguntas sugeridas</button>
+      <!-- lista desplegable, la llena el script -->
+      <ul id="sugeridas" class="oculto"></ul>
+    </div>
+  </div>
+
+  <!-- salen los mensajes -->
+  <div id="chat"></div>
+
+  <!-- boton para escribir -->
+  <div class="escribir">
+    <input type="text" id="pregunta" placeholder="Escribe tu pregunta...">
+    <button type="button" id="enviar">Enviar</button>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="estatuto.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
